@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_product_product_sizes",
+    "info": {
+        "displayName": "ProductSize"
+    },
+    "options": {},
+    "attributes": {
+        "size": {
+            "type": "enumeration",
+            "enum": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        "stoke": {
+            "type": "integer"
+        }
+    },
+    "config": {}
+}
