@@ -50,6 +50,18 @@
             "type": "component",
             "component": "product.product-color",
             "repeatable": true
+        },
+        "order_items": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::order-item.order-item",
+            "mappedBy": "product"
+        },
+        "category": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::category.category",
+            "inversedBy": "products"
         }
     }
 }
